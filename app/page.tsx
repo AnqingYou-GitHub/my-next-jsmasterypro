@@ -1,5 +1,5 @@
 const Home = () => (
-  <div className="text-3xl font-black text-white">Welcome to the world of Next.js</div>
+  <h1 className="text-3xl font-black text-primary-500">Welcome to the world of Next.js</h1>
 );
 
 export default Home;
