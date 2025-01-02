@@ -1,12 +1,5 @@
-import Hello from '@/app/component/hello';
+const Home = () => (
+  <div className="text-3xl font-black text-white">Welcome to the world of Next.js</div>
+);
 
-export default function Home() {
-  console.log('我是服务端组件1111');
-
-  return (
-    <>
-      <Hello></Hello>
-      <div>Home11</div>
-    </>
-  );
-}
+export default Home;
